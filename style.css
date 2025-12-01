@@ -1,3 +1,5 @@
+/* TAMPILAN Index.html*/
+
 /*Menghilangkan Pengaturan Default*/
 * {
     margin: 0px;
@@ -132,6 +134,31 @@ footer {
     background: linear-gradient(360deg, #007bff, #00c3ff);
     color: white;
     padding: 10px;
+}
+
+
+/* TAMPILAN tim.html*/
+.team-list {
+    padding: 0px;
+    margin: 0px;
+}
+
+.team-list li {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.team-list span {
+    font-weight: normal;
+}
+
+.roblox-photo {
+    display: flex;
+    justify-content: center;
 }
 
 /*Tampilan Responsif*/
