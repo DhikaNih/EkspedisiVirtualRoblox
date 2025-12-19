@@ -259,11 +259,11 @@ footer {
     background-attachment: fixed;
 }
 
-.registerKembaliWrapper {
+.registerWrapper {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0.1rem;
     width: 100%;
     height: 100%;
 }
@@ -318,8 +318,7 @@ footer {
 }
 
 .registerKembaliWrapper {
-    display: flex;
-    align-content: center;
+    text-align: center;
 }
 
 .registerKembali {
